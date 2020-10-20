@@ -1,0 +1,411 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0;
+}
+
+h2,
+h4 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 35px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 50px;
+}
+
+// Navigation ------------->
+
+.navbar {
+  background-color: #ff7f7f;
+  opacity: 0.8;
+
+  .navbar-nav {
+    margin-left: 130px;
+  }
+}
+
+.navbar .navbar-nav > li > a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-toggler-icon {
+  i {
+    color: white;
+    font-size: 35px;
+  }
+}
+
+// Section: HERO --------------------------------->
+
+.hero {
+  position: relative;
+  height: 1110px;
+  max-height: 100%;
+  background-image: url(../img/Shape.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.jumbotron {
+  background: none;
+  padding-top: 250px;
+
+  .btn {
+    background-color: white;
+    color: #ff7f7f;
+  }
+}
+
+// Section: BEST SELLER --------------------->
+
+.bestseller {
+  background-color: #ff7f7f;
+  color: white;
+
+  padding-top: 130px;
+  margin-top: -270px;
+  z-index: 1;
+
+  .bestseller-row1 {
+    margin-bottom: 50px;
+    h2 {
+      margin-bottom: 30px;
+      margin-top: 30px;
+      font-size: 40px;
+    }
+  }
+
+  .absolute-img1 {
+    position: absolute;
+    margin-left: -150px;
+  }
+
+  .absolute-img2 {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -70px;
+  }
+
+  img,
+  h4 {
+    margin-bottom: 20px;
+  }
+}
+
+// Section: Best vegan ------------------->
+
+.bestvegan {
+  position: relative;
+  padding-top: 100px;
+  z-index: 1;
+  margin-bottom: -30px;
+
+  img {
+    width: 390px;
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  h2,
+  p {
+    color: #ff7f7f;
+  }
+
+  .btn {
+    background-color: #ff7f7f;
+    color: white;
+  }
+}
+
+// Section: Statistics ------------------>
+
+.statistics {
+  position: relative;
+  max-height: fit-content;
+  padding-top: 200px;
+  background-image: url(../img/background2.png);
+  background-position: inherit;
+  max-width: 100%;
+  background-size: cover;
+  z-index: 2;
+
+  color: white;
+  padding-bottom: 70px;
+
+  .sushi-img {
+    margin-top: -60px;
+  }
+
+  .shrimp-img {
+    margin-bottom: -50px;
+  }
+
+  .statistics-row1 {
+    margin-top: 60px;
+  }
+
+  .rounded-circle {
+    border: 4px solid white;
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    padding-top: 20px;
+
+    margin: 20px auto;
+  }
+
+  .round-text {
+    padding-top: 40px;
+  }
+
+  .delicious-img3 img {
+    margin: 20px auto;
+    transform: translateY(120px) translateX(170px);
+  }
+}
+
+// Section Delicious ---------->
+
+.delicious {
+  .delicious-text {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+
+  .absolute-imgs-row {
+    margin: 15px auto;
+  }
+  .deliciuos-img1,
+  .deliciuos-img2 {
+    max-width: 100%;
+    width: 80px;
+  }
+  .deliciuos-img2 {
+    transform: translateY(120px) translateX(300px);
+  }
+
+  .roundplate img {
+    width: 370px;
+    max-width: 100%;
+    padding-bottom: 30px;
+  }
+
+  h2,
+  p {
+    color: #ff7f7f;
+  }
+
+  .btn {
+    background-color: #ff7f7f;
+    color: white;
+  }
+
+  .delicious-img4-row {
+    height: 20px;
+  }
+
+  .delicious-img4 {
+    margin: 10px auto;
+    transform: translateY(-100px);
+    padding-bottom: 60px;
+  }
+}
+
+// Section About ---------------------------->
+
+.about {
+  background-image: url(../img/background3.png);
+  color: white;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+
+  .container {
+    width: 400px;
+    max-width: 100%;
+    margin: 90px auto;
+    padding-top: 90px;
+  }
+}
+
+// Section Subscribe ------------------------->
+
+.subscribe {
+  // background-image: url(../img/clip1.png);
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  max-width: 100%;
+  z-index: 1;
+  margin-bottom: -110px;
+  h2,
+  p {
+    color: #ff7f7f;
+  }
+
+  h2,
+  .subscribe-text,
+  form {
+    margin-bottom: 20px;
+  }
+
+  .subscribe-form {
+    box-sizing: border-box;
+    resize: vertical;
+    padding-bottom: 50px;
+    input[type="text"] {
+      padding: 10px;
+      border: none;
+      background: #f1f1f1;
+      border-radius: 15px;
+      width: 320px;
+    }
+
+    input[type="submit"] {
+      background-color: #ff7f7f;
+      color: white;
+      margin-left: -20px;
+    }
+  }
+  .subscr-flex {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -280px;
+
+    .subscr-img1 {
+      margin-left: 60px;
+    }
+    .subscr-img2 {
+      margin-left: 1000px;
+    }
+  }
+}
+
+.contacts {
+  position: relative;
+  background-image: url(../img/background7.png);
+  background-position: center;
+  height: 900px;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin-top: -200px;
+
+  .sushi-nigiri {
+    margin-top: 280px;
+    margin-bottom: 100px;
+  }
+  .social {
+    padding-right: 50px;
+  }
+
+  .social,
+  .history,
+  .services,
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  h4,
+  p {
+    color: white;
+  }
+
+  h4 {
+    font-weight: 300;
+  }
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+    a {
+      color: white;
+    }
+  }
+}
+// MEDIA QUERIES -------------------------->
+
+@media (max-width: 1300px) {
+  .absolute-img2 {
+    margin-left: 900px;
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .absolute-img1,
+  .absolute-img2,
+  .deliciuos-img1,
+  .deliciuos-img2,
+  .delicious-img3,
+  .delicious-img4,
+  .subscr-img1,
+  .subscr-img2 {
+    display: none;
+  }
+
+  .delicious-text {
+    margin-top: 70px !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .vegan-text,
+  .delicious-text {
+    text-align: center !important;
+  }
+  .sushi-img,
+  .shrimp-img {
+    margin: 0 !important;
+  }
+
+  .delicious {
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscribe {
+    background-image: none;
+  }
+}
+
+@media (max-width: 330px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+// galaxy fold
+@media (max-width: 280px) {
+  h1 {
+    font-size: 40px;
+  }
+}

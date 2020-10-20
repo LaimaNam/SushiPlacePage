@@ -1,0 +1,405 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0;
+}
+
+h2,
+h4 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 35px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 50px;
+}
+
+.navbar {
+  background-color: #ff7f7f;
+  opacity: 0.8;
+}
+
+.navbar .navbar-nav {
+  margin-left: 130px;
+}
+
+.navbar .navbar-nav > li > a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-toggler-icon i {
+  color: white;
+  font-size: 35px;
+}
+
+.hero {
+  position: relative;
+  height: 1110px;
+  max-height: 100%;
+  background-image: url(../img/Shape.png);
+  background-position: center;
+  background-size: cover;
+  z-index: 2;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.jumbotron {
+  background: none;
+  padding-top: 250px;
+}
+
+.jumbotron .btn {
+  background-color: white;
+  color: #ff7f7f;
+}
+
+.bestseller {
+  background-color: #ff7f7f;
+  color: white;
+  padding-top: 130px;
+  margin-top: -270px;
+  z-index: 1;
+}
+
+.bestseller .bestseller-row1 {
+  margin-bottom: 50px;
+}
+
+.bestseller .bestseller-row1 h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.bestseller .absolute-img1 {
+  position: absolute;
+  margin-left: -150px;
+}
+
+.bestseller .absolute-img2 {
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: -70px;
+}
+
+.bestseller img,
+.bestseller h4 {
+  margin-bottom: 20px;
+}
+
+.bestvegan {
+  position: relative;
+  padding-top: 100px;
+  z-index: 1;
+  margin-bottom: -30px;
+}
+
+.bestvegan img {
+  width: 390px;
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.bestvegan h2,
+.bestvegan p {
+  color: #ff7f7f;
+}
+
+.bestvegan .btn {
+  background-color: #ff7f7f;
+  color: white;
+}
+
+.statistics {
+  position: relative;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  padding-top: 200px;
+  background-image: url(../img/background2.png);
+  background-position: inherit;
+  max-width: 100%;
+  background-size: cover;
+  z-index: 2;
+  color: white;
+  padding-bottom: 70px;
+}
+
+.statistics .sushi-img {
+  margin-top: -60px;
+}
+
+.statistics .shrimp-img {
+  margin-bottom: -50px;
+}
+
+.statistics .statistics-row1 {
+  margin-top: 60px;
+}
+
+.statistics .rounded-circle {
+  border: 4px solid white;
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  padding-top: 20px;
+  margin: 20px auto;
+}
+
+.statistics .round-text {
+  padding-top: 40px;
+}
+
+.statistics .delicious-img3 img {
+  margin: 20px auto;
+  -webkit-transform: translateY(120px) translateX(170px);
+          transform: translateY(120px) translateX(170px);
+}
+
+.delicious .delicious-text {
+  padding-bottom: 40px;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.delicious .absolute-imgs-row {
+  margin: 15px auto;
+}
+
+.delicious .deliciuos-img1,
+.delicious .deliciuos-img2 {
+  max-width: 100%;
+  width: 80px;
+}
+
+.delicious .deliciuos-img2 {
+  -webkit-transform: translateY(120px) translateX(300px);
+          transform: translateY(120px) translateX(300px);
+}
+
+.delicious .roundplate img {
+  width: 370px;
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.delicious h2,
+.delicious p {
+  color: #ff7f7f;
+}
+
+.delicious .btn {
+  background-color: #ff7f7f;
+  color: white;
+}
+
+.delicious .delicious-img4-row {
+  height: 20px;
+}
+
+.delicious .delicious-img4 {
+  margin: 10px auto;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+  padding-bottom: 60px;
+}
+
+.about {
+  background-image: url(../img/background3.png);
+  color: white;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+}
+
+.about .container {
+  width: 400px;
+  max-width: 100%;
+  margin: 90px auto;
+  padding-top: 90px;
+}
+
+.subscribe {
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  max-width: 100%;
+  z-index: 1;
+  margin-bottom: -110px;
+}
+
+.subscribe h2,
+.subscribe p {
+  color: #ff7f7f;
+}
+
+.subscribe h2,
+.subscribe .subscribe-text,
+.subscribe form {
+  margin-bottom: 20px;
+}
+
+.subscribe .subscribe-form {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+  padding-bottom: 50px;
+}
+
+.subscribe .subscribe-form input[type="text"] {
+  padding: 10px;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 15px;
+  width: 320px;
+}
+
+.subscribe .subscribe-form input[type="submit"] {
+  background-color: #ff7f7f;
+  color: white;
+  margin-left: -20px;
+}
+
+.subscribe .subscr-flex {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: -280px;
+}
+
+.subscribe .subscr-flex .subscr-img1 {
+  margin-left: 60px;
+}
+
+.subscribe .subscr-flex .subscr-img2 {
+  margin-left: 1000px;
+}
+
+.contacts {
+  position: relative;
+  background-image: url(../img/background7.png);
+  background-position: center;
+  height: 900px;
+  max-height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  margin-top: -200px;
+}
+
+.contacts .sushi-nigiri {
+  margin-top: 280px;
+  margin-bottom: 100px;
+}
+
+.contacts .social {
+  padding-right: 50px;
+}
+
+.contacts .social,
+.contacts .history,
+.contacts .services,
+.contacts .contact {
+  margin-bottom: 20px;
+}
+
+.contacts h4,
+.contacts p {
+  color: white;
+}
+
+.contacts h4 {
+  font-weight: 300;
+}
+
+.contacts ul {
+  padding-left: 0;
+}
+
+.contacts li {
+  list-style-type: none;
+}
+
+.contacts li a {
+  color: white;
+}
+
+@media (max-width: 1300px) {
+  .absolute-img2 {
+    margin-left: 900px;
+    margin-top: -90px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .absolute-img1,
+  .absolute-img2,
+  .deliciuos-img1,
+  .deliciuos-img2,
+  .delicious-img3,
+  .delicious-img4,
+  .subscr-img1,
+  .subscr-img2 {
+    display: none;
+  }
+  .delicious-text {
+    margin-top: 70px !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .vegan-text,
+  .delicious-text {
+    text-align: center !important;
+  }
+  .sushi-img,
+  .shrimp-img {
+    margin: 0 !important;
+  }
+  .delicious {
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .subscribe {
+    background-image: none;
+  }
+}
+
+@media (max-width: 330px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
