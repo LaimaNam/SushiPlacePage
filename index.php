@@ -39,17 +39,17 @@
             
               <div class="col-lg-4 sushi-plate ">
                 <img src="img/plate1.png" alt="">
-                <h4>Title Here</h4>
+                <h4><a href="#">Title Here</a></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
               <div class="col-lg-4 sushi-plate">
                 <img src="img/plate2.png" alt="">
-                <h4>Title Here</h4>
+                <h4><a href="#">Title Here</a></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
               <div class="col-lg-4 sushi-plate">
                 <img src="img/plate3.png" alt="">
-                <h4>Title Here</h4>
+                <h4><a href="#">Title Here</a></h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             
@@ -182,7 +182,7 @@
           </div>
         </div>
 
-        <div class="container text-center subscr-img3">
+        <div class="container text-left subscr-img3">
           <img src="img/vector3.png" alt="">
         </div>                
     </div>
